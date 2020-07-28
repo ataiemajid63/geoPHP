@@ -1,5 +1,5 @@
 <?php
-require_once ('../geoPHP.inc');
+require_once ('../geoPHP.php');
 
 class GeoHashTest extends PHPUnit_Framework_TestCase {
 

@@ -15,7 +15,7 @@ function run_test() {
 
   header("Content-type: text");
 
-  include_once('../geoPHP.inc');
+  include_once('../geoPHP.php');
 
   if (geoPHP::geosInstalled()) {
     print "GEOS is installed.\n";

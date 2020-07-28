@@ -35,7 +35,7 @@ Example usage
 
 ```php
 <?php
-include_once('geoPHP.inc');
+include_once('geoPHP.php');
 
 // Polygon WKT example
 $polygon = geoPHP::load('POLYGON((1 1,5 1,5 5,1 5,1 1),(2 2,2 3,3 3,3 2,2 2))','wkt');
@@ -101,7 +101,7 @@ geoPHP, through it's EWKB adapter, has good integration with postGIS. Here's an 
 
 ```php
 <?php
-include_once('geoPHP.inc');
+include_once('geoPHP.php');
 $host =     'localhost';
 $database = 'phayes';
 $table =    'test';

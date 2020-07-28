@@ -1,5 +1,5 @@
 <?php
-require_once('../geoPHP.inc');
+require_once('../geoPHP.php');
 class MethodsTests extends PHPUnit_Framework_TestCase {
 
   function setUp() {
